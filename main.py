@@ -11,4 +11,3 @@ app.include_router(ex1_routes)
 app.include_router(ex2_routes)
 app.include_router(ex3_routes)
 app.include_router(ex4_routes)
-

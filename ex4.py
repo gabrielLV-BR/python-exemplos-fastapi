@@ -10,7 +10,7 @@ class Frase:
 def get_count(frase: str) -> tuple[int, int, int]:
     vogais = espacos = outros = 0
 
-    for letra in frase:
+    for letra in frase.lower():
         if letra == " ":
             espacos += 1
         elif letra in "aeiou":

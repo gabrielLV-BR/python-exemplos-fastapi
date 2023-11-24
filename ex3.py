@@ -12,7 +12,7 @@ class Equation:
 
     def __str__(self) -> str:
         a, b, c = self.a, self.b, self.c
-        return "{}x² {}x {}".format(a, b, c)
+        return f"{a:+}x² {b:+}x {c:+}"
 
 class Solution:
     def __init__(self, eq: Equation):

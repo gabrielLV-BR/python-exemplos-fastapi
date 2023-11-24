@@ -4,7 +4,7 @@ from typing import Optional
 router = APIRouter()
 
 @router.get("/tabuada/{num}")
-def quadrados(num: int, start: Optional[int] = 1, end: Optional[int] = 10):
+def tabuada(num: int, start: Optional[int] = 1, end: Optional[int] = 10):
     return {
         "num": num,
         "start": start,
